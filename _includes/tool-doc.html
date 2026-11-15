@@ -1,0 +1,16 @@
+{%- comment -%}
+  Documentation widget for a package tool spec.
+  Type labels come from _data/type_labels.yml; unmapped type strings are
+  printed as they are stored in the spec.
+{%- endcomment -%}
+<div class="tool-spec">
+{%- for tool in include.spec.tools %}
+  <h3>{{ tool.name }}</h3>
+  <ul>
+  {%- for param in tool.parameters.properties %}
+    {%- assign type_label = site.data.type_labels[param[1].type] | default: param[1].type %}
+    <li><code>{{ param[0] }}</code> &mdash; {{ type_label }}</li>
+  {%- endfor %}
+  </ul>
+{%- endfor %}
+</div>

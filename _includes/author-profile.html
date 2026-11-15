@@ -1,0 +1,10 @@
+<div class="author-card">
+  <strong>{{ site.author.name }}</strong><br>
+  <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a><br>
+  {%- if site.author.github %}
+  <a href="https://github.com/{{ site.author.github }}">github.com/{{ site.author.github }}</a><br>
+  {%- endif %}
+  {%- if site.author.huggingface %}
+  <a href="{{ site.author.huggingface }}">{{ site.author.huggingface }}</a><br>
+  {%- endif %}
+</div>

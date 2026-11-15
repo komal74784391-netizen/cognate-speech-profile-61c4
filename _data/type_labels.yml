@@ -1,0 +1,6 @@
+str: text
+int: whole number
+float: decimal number
+bool: flag
+list: sequence
+dict: mapping

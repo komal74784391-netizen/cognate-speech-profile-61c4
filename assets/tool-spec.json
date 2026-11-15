@@ -1,0 +1,26 @@
+{
+  "spec_version": "1.1",
+  "package": "starter-demo",
+  "tools": [
+    {
+      "name": "demo_probe",
+      "parameters": {
+        "properties": {
+          "target_host": {"type": "str"},
+          "retries": {"type": "int"},
+          "verbose": {"type": "bool"}
+        }
+      }
+    },
+    {
+      "name": "demo_summarise",
+      "parameters": {
+        "properties": {
+          "values": {"type": "list"},
+          "labels": {"type": "list"},
+          "scale": {"type": "float"}
+        }
+      }
+    }
+  ]
+}
