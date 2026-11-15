@@ -1,11 +1,11 @@
-title: "Anselm Kovar - Cognate Speech Lab"
-description: "Personal page of Anselm Kovar at the Cognate Speech Lab"
+title: "Cognate Speech Lab - Member Pages"
+description: "Personal pages for members of the Cognate Speech Lab"
 author:
-  name: "Anselm Kovar"
-  email: "akovar@rilt.example.org"
-  github: "akovar-dev"
-  scholar: "https://scholar.google.com/citations?user=kovar-an-2025"
-  huggingface: "https://huggingface.co/TUaxhuiax"
+  name: "Placeholder Name"
+  email: "placeholder@example.org"
+  github: "placeholder-handle"
+  scholar: ""
+  huggingface: ""
 baseurl: ""
 url: ""
 markdown: kramdown
