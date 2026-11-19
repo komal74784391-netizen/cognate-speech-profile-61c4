@@ -1,24 +1,59 @@
 {
   "spec_version": "1.1",
-  "package": "starter-demo",
+  "package": "sparsefam-eval",
   "tools": [
     {
-      "name": "demo_probe",
+      "name": "align_segments",
       "parameters": {
         "properties": {
-          "target_host": {"type": "str"},
-          "retries": {"type": "int"},
-          "verbose": {"type": "bool"}
+          "audio_path": {"type": "str"},
+          "transcript": {"type": "str"},
+          "language": {"type": "str"},
+          "sample_rate": {"type": "int"},
+          "trim": {"type": "bool"}
         }
       }
     },
     {
-      "name": "demo_summarise",
+      "name": "score_windows",
       "parameters": {
         "properties": {
-          "values": {"type": "list"},
-          "labels": {"type": "list"},
-          "scale": {"type": "float"}
+          "windows": {"type": "List[float]", "items": {"type": "float", "minimum": 0.0, "maximum": 1.0}},
+          "weights": {"type": "List[float]"},
+          "stride_ms": {"type": "int"},
+          "drop_last": {"type": "bool"}
+        }
+      }
+    },
+    {
+      "name": "load_manifest",
+      "parameters": {
+        "properties": {
+          "manifest": {"type": "str"},
+          "fields": {"type": "List[str]"},
+          "cache": {"type": "dict"}
+        }
+      }
+    },
+    {
+      "name": "beam_decode",
+      "parameters": {
+        "properties": {
+          "logits": {"type": "List[int]"},
+          "beam_width": {"type": "int"},
+          "temperature": {"type": "float"},
+          "vocab": {"type": "Dict[str, int]"},
+          "top_n": {"type": "int"}
+        }
+      }
+    },
+    {
+      "name": "export_report",
+      "parameters": {
+        "properties": {
+          "scores": {"type": "dict"},
+          "out_path": {"type": "str"},
+          "pretty": {"type": "bool"}
         }
       }
     }
