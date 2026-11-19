@@ -18,7 +18,7 @@
       "name": "score_windows",
       "parameters": {
         "properties": {
-          "windows": {"type": "List[float]", "items": {"type": "float", "minimum": 0.0, "maximum": 1.0}},
+          "windows": {"type": "List[float]"},
           "weights": {"type": "List[float]"},
           "stride_ms": {"type": "int"},
           "drop_last": {"type": "bool"}
