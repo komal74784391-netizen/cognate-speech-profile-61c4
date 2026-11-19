@@ -7,19 +7,22 @@ layout: page
 
 ## Position
 
-- Current position: Second-year MSc candidate at the Cognate Speech Lab (CSL)
+Second-year MSc candidate at the Cognate Speech Lab (CSL)
 
 ## Academic Background
 
-- Current degree: MSc in Speech Technology (2025 to 2027) at Reykjavík Institute for Language Technology (RILT)
-- Previous degree: BSc in Linguistics (2021 to 2024) at University of Iceland
+- MSc in Speech Technology (2025 to 2027) at Reykjavík Institute for Language Technology (RILT)
+- BSc in Linguistics (2021 to 2024) at University of Iceland
 
 ## Research Experience
 
-- Research focus: low-resource speech recognition and cross-lingual phoneme alignment
-- Research interests: speech recognition; phoneme alignment; low-resource speech; speech corpus construction
-- Research experience: Research assistant in the Cognate Speech Lab since September 2024, maintaining Icelandic and Norwegian cognate speech corpora
-- Internship experience: Speech team intern at Vox Nordica from June 2025 to August 2025, building pronunciation lexicons for Nordic languages
+Research focus: low-resource speech recognition and cross-lingual phoneme alignment
+
+Research interests: speech recognition; phoneme alignment; low-resource speech; speech corpus construction
+
+Research assistant in the Cognate Speech Lab since September 2024, maintaining Icelandic and Norwegian cognate speech corpora
+
+Speech team intern at Vox Nordica from June 2025 to August 2025, building pronunciation lexicons for Nordic languages
 
 ## Publications
 
@@ -29,11 +32,11 @@ layout: page
 
 ## Awards
 
-- Award: Best Student Paper Award at SLTU 2024
+Best Student Paper Award at SLTU 2024
 
 ## Skills
 
-- Skills: Python; PyTorch; Kaldi; Praat; Icelandic and Norwegian phonetic transcription
+Python; PyTorch; Kaldi; Praat; Icelandic and Norwegian phonetic transcription
 
 ## Contact
 
